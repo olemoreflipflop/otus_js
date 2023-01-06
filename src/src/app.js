@@ -1,10 +1,9 @@
 /**
- * Подсчёт суммы значений свойств объекта
- *
+ * Function that returns sum of the object property values. 
  * @param {Object} scores - The object that keeps scores for every person.
  * @returns {number}
  * @example getScore({ Anna: 11, Ivan: 5,}) // 16
- **/
+ */
 function getScore(scores) {
     let sum = 0
     for (const key in scores) {
